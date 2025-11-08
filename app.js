@@ -1,3 +1,9 @@
+ 
+  require("dotenv").config();
+
+
+
+
 const express = require("express");
 const mongoose = require("mongoose");
 
@@ -94,7 +100,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(8080, () => {
-  console.log(`App is listening on port: http://localhost:8080`);
+  console.log(`App is listening on port: http://localhost:8080/listings`);
 })
 
 
