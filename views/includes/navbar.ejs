@@ -2,6 +2,8 @@
   .btn-search {
     background-color: #fe424d;
     color: white;
+    border-radius: 25px;
+    padding: 0 1rem;
   }
 
   .btn-search:hover {
@@ -11,7 +13,14 @@
 
   .btn-search i {
     display: inline;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+  
+  }
+
+  .search-inp {
+    border-radius: 25px;
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
   }
 </style>
 
@@ -31,10 +40,9 @@
 
       <div class="navbar-nav ms-auto">
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2 search-inp" type="search" placeholder="Search destinations" >
           <button class="btn btn-search" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            Search</button>
+            <i class="fa-solid fa-magnifying-glass"></i>Search</button>
         </form>
       </div>
 
