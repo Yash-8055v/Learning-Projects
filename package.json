@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "22.16.0"
+  },
   "name": "major_project",
   "version": "1.0.0",
   "main": "index.js",
@@ -6,12 +9,13 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yash Karande",
   "license": "ISC",
-  "description": "",
+  "description": "this is a simple clone of Airbnb website",
   "dependencies": {
     "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
     "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
     "ejs-mate": "^4.0.0",
